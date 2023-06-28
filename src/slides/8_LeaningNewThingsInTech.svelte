@@ -17,6 +17,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>12m00</li>
     <li>What can we bring in from learning spoken language that applies to tech?</li>
     <li>This list is not comprehensive but should help you at the beginning at least</li>
     <li>Read list</li>

@@ -1,209 +1,203 @@
 <script>
-  import Notes from './lib/Notes.svelte';
-  import Slide from './lib/Slide.svelte';
-  import Introduction from './slides/Introduction.svelte';
-  import Title from './slides/Title.svelte';
+  import ContentSlide from './lib/ContentSlide.svelte';
+  import ListWrapper from './lib/ListWrapper.svelte';
+  import Title from './slides/1_Title.svelte';
+  import Introduction from './slides/2_Introduction.svelte';
+  import WhoAmI from './slides/3_WhoAmI.svelte';
+  import HowDidItStart from './slides/4_HowDidItStart.svelte';
+  import ThePlan from './slides/5_ThePlan.svelte';
+  import TheProgress from './slides/6_TheProgress.svelte';
+  import TheProgress2 from './slides/7_TheProgress2.svelte';
+  import LeaningNewThingsInTech from './slides/9_LeaningNewThingsInTech.svelte';
 </script>
 
 <Title />
 
 <Introduction />
 
-<Slide>
-  <p>The little island that is your comfort zone</p>
-  <Notes>
-    <ul>
-      <li>2. Slide 2:</li>
-      <li>Learning something new forces us to review our existing assumptions and become humble</li>
-      <li>
-        *"Empty your cup so that it may be filled; become devoid to gain totality."* - Bruce Lee
-      </li>
-      <li>
-        By sending messages to strange I didn't know how they would respond, whether they'd respond
-        at all. Some were helpful, others ghosted me or just didn't show any interest on my initial
-        messages
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>The Power of Human Connection</p>
-  <Notes>
-    <ul>
-      <li>3. Slide 3:</li>
-      <li>
-        Despite the language barrier, after some time I started connecting with people, they weren't
-        all strangers any more
-      </li>
-      <li>
-        Highlight the fact that human connection transcends language and cultural differences.
-      </li>
-      <li>
-        The willing attract, unwilling distract (one another) - Os disposes se atraem, os dispostos
-        se atraem, O Teatro Mágico
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>The Importance of Persistence</p>
-  <Notes>
-    <ul>
-      <li>4. Slide 4:</li>
-      <li>Messaging people every day requires persistence and dedication</li>
-      <li>You have to keep the conversations going, find the time to keep the habit up</li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>The Benefits of Language Learning</p>
-  <Notes>
-    <ul>
-      <li>5. Slide 5:</li>
-      <li>
-        Discuss how even though you didn't speak the language at first, you learned a lot through
-        this experience
-      </li>
-      <li>
-        Highlight the benefits of language learning, such as broadening your horizons and opening up
-        new opportunities
-      </li>
-    </ul>
-    <strong>INTERMISSION</strong>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Learning New Things in Technology - Identifying Your Goal</p>
-  <Notes>
-    <ul>
-      <li>6. Slide 6:</li>
-      <li>
-        Draw a parallel between your talk title and the process for learning new things in
-        technology
-      </li>
-      <li>
-        Discuss the importance of identifying your goals when learning new things in technology
-      </li>
-      <li>
-        For Spanish all I wanted was to listen to music and watch series and not have to worry about
-        subtitles
-      </li>
-      <li>For technology it's up to you but perhaps you could try</li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Learning New Things in Technology - Taking Small Steps</p>
-  <Notes>
-    <ul>
-      <li>7. Slide 7:</li>
-      <li>Just like when starting with Spanish, in coding you should start with the basics</li>
-      <li>Learn some syntax</li>
-      <li>Copy a basic tutorial so you start to see what working code looks like</li>
-      <li>
-        In the case of DevOps, create a basic deployment of a server that returns a hello world
-      </li>
-      <li>Try and change parts of it to get a feel for how things work</li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Learning New Things in Technology - Practising Regularly</p>
-  <Notes>
-    <ul>
-      <li>8. Slide 8:</li>
-      <li>Discuss the importance of regular practice when learning new things in technology</li>
-      <li>Keep your exposure to what you're learning high</li>
-      <li>
-        Read blog posts, listen to podcasts, watch video tutorials or read source code, whatever
-        floats your boat
-      </li>
-      <li>
-        Provide tips for incorporating regular practice into your routine, such as setting aside
-        dedicated time each day or week
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Learning New Things in Technology - Embracing Failure</p>
-  <Notes>
-    <ul>
-      <li>9. Slide 9:</li>
-      <li>Discuss the importance of embracing failure as a natural part of the learning process</li>
-      <li>Provide examples of how you can use failure as an opportunity to learn and improve</li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Learning New Things in Technology - Connecting with Others</p>
-  <Notes>
-    <ul>
-      <li>10. Slide 10:</li>
-      <li>
-        Discuss the importance of connecting with others when learning new things in technology
-      </li>
-      <li>
-        Provide examples of ways to connect with others, such as joining a community of learners or
-        attending meet-ups or conferences
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>The Potential for Positive Impact</p>
-  <Notes>
-    <ul>
-      <li>11. Slide 11:</li>
-      <li>Discuss the potential for small actions to have a big impact</li>
-      <li>
-        Highlight how your experience of sending messages to strangers in a foreign language may
-        have brightened someone's day or made a positive impact in their life
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Conclusion</p>
-  <Notes>
-    <ul>
-      <li>12. Slide 12:</li>
-      <li>Summarize the key points from your talk</li>
-      <li>
-        End with a call to action or a final thought that leaves the audience inspired and motivated
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>References</p>
-  <Notes>
-    <ul>
-      <li>13. Slide 13:</li>
-      <li>
-        Provide a list of references or resources that the audience can use to learn more about the
-        topics you discussed
-      </li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Acknowledgements</p>
-  <Notes>
-    <ul>
-      <li>14. Slide 14:</li>
-      <li>Acknowledge anyone who helped you with your research or preparation for the talk</li>
-    </ul>
-  </Notes>
-</Slide>
-<Slide>
-  <p>Q&A</p>
-  <Notes>
-    <ul>
-      <li>15. Slide 15:</li>
-      <li>
-        End with a slide that encourages the audience to ask questions and engage in discussion
-      </li>
-    </ul>
-  </Notes>
-</Slide>
+<WhoAmI />
+
+<HowDidItStart />
+
+<ThePlan />
+
+<TheProgress />
+<TheProgress2 />
+
+<LeaningNewThingsInTech />
+
+<ContentSlide>
+  <svelte:fragment slot="title">Identifying goals</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">What do you want to do with this new skill?</li>
+    <li class="fragment">How will you know when you've achieved it?</li>
+    <li class="fragment">How strict are you about those answers?</li>
+    <li class="fragment">Will there be a next level after you're done with this one?</li>
+  </ListWrapper>
+
+  <ul slot="notes">
+    <li>
+      Before we start in a long term project, we should identify our goals. What do we want to get
+      from it? What do we want to achieve? What is our definition of done?
+      <ul>
+        <li>These questions are asked everywhere, but that's because they're important.</li>
+        <li>
+          In my case with Spanish, it started because I was bored, but then I start to want to
+          understand the deeper meaning behind lyrics, read articles in Spanish and discuss more
+          complex topics with my language partners
+        </li>
+      </ul>
+    </li>
+    <li>
+      In the case of technology you should have at least an initial definition of done, so you know
+      to stay focused and also when to review your plans and adjust your course.
+      <ul>
+        <li>
+          There are a number of reasons why you should want to learn something in technology,
+          whether you already work in tech or not.
+        </li>
+      </ul>
+    </li>
+    <li>
+      A few suggestions are:
+      <ul>
+        <li>Get a better paying job</li>
+        <li>
+          Build an application that will be useful to me or a product that I can sell to others
+        </li>
+        <li>Build a game that from a story that I always wanted to share with others</li>
+        <li>
+          The possibilities are endless, but it's important to have a goal in mind so you can stay
+          focused
+        </li>
+      </ul>
+    </li>
+    <li>So first things first, establish your goals</li>
+  </ul>
+</ContentSlide>
+
+<ContentSlide>
+  <svelte:fragment slot="title">Taking Small Steps</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">Learn to walk before you run</li>
+    <li class="fragment">Learn the basics of the syntax and/or foundational concepts</li>
+    <li class="fragment">
+      Follow some tutorials without changing much until you feel like experimenting
+    </li>
+    <li class="fragment">Find your pace, learning shouldn't be overwhelming, nor boring</li>
+  </ListWrapper>
+
+  <ul slot="notes ">
+    <li>Good, you know what the end will look like, now let's go back to the beginning</li>
+    <li>Learn some syntax</li>
+    <li>Copy a basic tutorial so you start to see what working code looks like</li>
+    <li>In the case of DevOps, create a basic deployment of a server that returns a hello world</li>
+    <li>
+      Try and change parts of it to get a feel for how things work and what causes them to break
+    </li>
+    <li>These are your baby steps</li>
+  </ul>
+</ContentSlide>
+<ContentSlide>
+  <svelte:fragment slot="title">Regular Practice and Immersion</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">Make this technology and its learning a part of your life</li>
+    <li class="fragment">Keep your exposure to it high</li>
+    <li class="fragment">Blog posts, podcasts, conference talks... everything counts</li>
+    <li class="fragment">Write about it, talk about it, share your experience so far</li>
+    <li class="fragment">Do it regularly, even if it's just for a few minutes a day</li>
+  </ListWrapper>
+
+  <ul slot="notes">
+    <li>Make it a part of your life</li>
+    <li>
+      Keep your exposure to what you're learning high:
+      <ul>
+        <li>Read blog posts</li>
+        <li>Listen to podcasts</li>
+        <li>Watch video tutorials or read source code</li>
+        <li>
+          Join some discord servers and what others are talking about in relation to this tech
+        </li>
+      </ul>
+    </li>
+    <li>
+      Whichever way you choose to do it, make sure you're doing it regularly, even if it's just for
+      a few minutes a day
+    </li>
+  </ul>
+</ContentSlide>
+
+<ContentSlide>
+  <svelte:fragment slot="title">Embracing your mistakes</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">Failure is a natural part of the learning process</li>
+    <li class="fragment">It's an opportunity to learn and improve</li>
+    <li class="fragment">Don't be afraid to make mistakes</li>
+    <li class="fragment">Don't be afraid to ask for help</li>
+  </ListWrapper>
+
+  <ul slot="notes">
+    <li>you will probably make a lot of mistakes</li>
+    <li>it is important to accept them as part of the process.</li>
+    <li>
+      Think about the nature of your mistakes:
+      <ul>
+        <li>Did you break a hard rule?</li>
+        <li>Did you not follow a best practice?</li>
+        <li>
+          Is it a matter of offending the language's grammar/syntax or just not matching a regional
+          accent?
+        </li>
+      </ul>
+    </li>
+  </ul>
+</ContentSlide>
+
+<ContentSlide>
+  <svelte:fragment slot="title">The importance of focused communities</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">Learning can be a great social activity</li>
+    <li class="fragment">Join a community of learners</li>
+    <li class="fragment">Attend meet-ups or conferences</li>
+    <li class="fragment">Connect with others</li>
+  </ListWrapper>
+
+  <ul slot="notes">
+    <li>There will always be others learning the same things as you</li>
+    <li>Mentors can speed up learning</li>
+    <li>Could help you further your career</li>
+  </ul>
+</ContentSlide>
+
+<ContentSlide>
+  <svelte:fragment slot="title">Conclusion</svelte:fragment>
+
+  <ListWrapper>
+    <li class="fragment">Set your goals</li>
+    <li class="fragment">Take small steps</li>
+    <li class="fragment">Practice regularly</li>
+    <li class="fragment">Embrace your mistakes</li>
+    <li class="fragment">Join a community</li>
+  </ListWrapper>
+
+  <ul slot="notes">
+    <li>Are you learning something new at the moment that you'd like to talk about?</li>
+    <li>I for instance have been learning Rust, and I'm really enjoying it</li>
+  </ul>
+</ContentSlide>
+<ContentSlide>
+  <svelte:fragment slot="title">Thank you</svelte:fragment>
+
+  <ul slot="notes">
+    <li>Thank you!</li>
+    <li>The slides will be posted online</li>
+    <li>I'll try and put together a blog post as well</li>
+    <li>Any questions?</li>
+  </ul>
+</ContentSlide>

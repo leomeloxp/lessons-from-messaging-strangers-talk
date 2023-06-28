@@ -3,7 +3,7 @@ import Markdown from 'reveal.js/plugin/markdown/markdown';
 import RevealNotes from 'reveal.js/plugin/notes/notes';
 
 // Import theme
-import 'reveal.js/dist/theme/black.css';
+// import 'reveal.js/dist/theme/black.css';
 
 // Import CSS for plugins
 import 'reveal.js/plugin/highlight/monokai.css';

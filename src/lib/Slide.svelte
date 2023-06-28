@@ -1,4 +1,7 @@
 <script>
+  // Transition
+  export let transition = null;
+
   // Color Backgrounds
   export let bgColor = null;
 
@@ -17,9 +20,13 @@
   // Iframe Backgrounds
   export let bgIframe = null;
   export let bgInteractive = null;
+
+  let className = '';
+  export { className as class };
 </script>
 
 <section
+  class={className}
   data-background-color={bgColor}
   data-background-gradient={bgGradient}
   data-background-image={bgImage}
@@ -32,6 +39,13 @@
   data-background-video-muted={bgVideoMuted}
   data-background-iframe={bgIframe}
   data-background-interactive={bgInteractive}
+  data-transition={transition}
 >
   <slot />
 </section>
+
+<style>
+  section {
+    padding: 1rem;
+  }
+</style>

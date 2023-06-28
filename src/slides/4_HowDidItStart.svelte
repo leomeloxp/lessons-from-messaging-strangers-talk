@@ -11,11 +11,11 @@
     <li class="fragment">Needed to keep sane</li>
     <li class="fragment">Decided on learn Spanish instead of baking sourdough</li>
   </ListWrapper>
-  <Notes>
-    <ul>
-      <li>It was June 2020, I was bored and in lockdown</li>
-      <li>Really wanted to learn something in order to keep sane</li>
-      <li>Decided to learn Spanish instead of baking sourdough or redecorating my rental flat</li>
-    </ul>
-  </Notes>
+
+  <ul slot="notes">
+    <li>6m00</li>
+    <li>It was June 2020, I was bored and in lockdown</li>
+    <li>Really wanted to learn something in order to keep sane</li>
+    <li>Decided to learn Spanish instead of baking sourdough or redecorating my rental flat</li>
+  </ul>
 </ContentSlide>

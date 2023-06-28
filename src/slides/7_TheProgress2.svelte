@@ -17,6 +17,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>10m30</li>
     <li>After enough time I could already join group and solo calls with Spanish speakers</li>
     <li>Didn't need to look up verb conjugations as often</li>
     <li>Still had a weird/mixed accent</li>

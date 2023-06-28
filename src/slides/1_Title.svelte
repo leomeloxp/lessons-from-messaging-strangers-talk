@@ -14,6 +14,7 @@
   </h1>
 
   <Notes>
+    <p>1m30</p>
     <ul>
       <li>Welcome everyone</li>
       <li>Here to talk about <strong>title</strong></li>

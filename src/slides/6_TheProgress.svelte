@@ -21,6 +21,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>9m00</li>
     <li>
       I already am a native speaker of Brazilian portuguese, that meant I had a B1 level in
       Portunhol

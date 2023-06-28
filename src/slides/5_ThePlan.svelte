@@ -13,6 +13,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>7m30</li>
     <li>Exchange at least 50 messages a day in Spanish</li>
     <li>Find a good series to watch, in Spanish with Spanish subtitles</li>
     <li>Find podcasts and music in Spanish to listen to whilst I was doing other things</li>

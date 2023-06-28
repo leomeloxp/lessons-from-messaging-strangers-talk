@@ -8,7 +8,7 @@
   import ThePlan from './slides/5_ThePlan.svelte';
   import TheProgress from './slides/6_TheProgress.svelte';
   import TheProgress2 from './slides/7_TheProgress2.svelte';
-  import LeaningNewThingsInTech from './slides/9_LeaningNewThingsInTech.svelte';
+  import LeaningNewThingsInTech from './slides/8_LeaningNewThingsInTech.svelte';
 </script>
 
 <Title />
@@ -37,6 +37,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>14m30</li>
     <li>
       Before we start in a long term project, we should identify our goals. What do we want to get
       from it? What do we want to achieve? What is our definition of done?
@@ -90,6 +91,7 @@
   </ListWrapper>
 
   <ul slot="notes ">
+    <li>17m00</li>
     <li>Good, you know what the end will look like, now let's go back to the beginning</li>
     <li>Learn some syntax</li>
     <li>Copy a basic tutorial so you start to see what working code looks like</li>
@@ -100,6 +102,7 @@
     <li>These are your baby steps</li>
   </ul>
 </ContentSlide>
+
 <ContentSlide>
   <svelte:fragment slot="title">Regular Practice and Immersion</svelte:fragment>
 
@@ -112,6 +115,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>19m30</li>
     <li>Make it a part of your life</li>
     <li>
       Keep your exposure to what you're learning high:
@@ -142,6 +146,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>22m00</li>
     <li>you will probably make a lot of mistakes</li>
     <li>it is important to accept them as part of the process.</li>
     <li>
@@ -169,6 +174,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>24m30</li>
     <li>There will always be others learning the same things as you</li>
     <li>Mentors can speed up learning</li>
     <li>Could help you further your career</li>
@@ -187,6 +193,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>27m00</li>
     <li>Are you learning something new at the moment that you'd like to talk about?</li>
     <li>I for instance have been learning Rust, and I'm really enjoying it</li>
   </ul>
@@ -195,6 +202,7 @@
   <svelte:fragment slot="title">Thank you</svelte:fragment>
 
   <ul slot="notes">
+    <li>29m30</li>
     <li>Thank you!</li>
     <li>The slides will be posted online</li>
     <li>I'll try and put together a blog post as well</li>

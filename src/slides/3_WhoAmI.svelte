@@ -18,6 +18,7 @@
   </ListWrapper>
 
   <ul slot="notes">
+    <li>4m30</li>
     <li>Leo Melo</li>
     <li>Non-binary</li>
     <li>Born in 🇧🇷</li>

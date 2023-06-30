@@ -38,43 +38,11 @@
 
   <ul slot="notes">
     <li>14m30</li>
-    <li>
-      Before we start in a long term project, we should identify our goals. What do we want to get
-      from it? What do we want to achieve? What is our definition of done?
-      <ul>
-        <li>These questions are asked everywhere, but that's because they're important.</li>
-        <li>
-          In my case with Spanish, it started because I was bored, but then I start to want to
-          understand the deeper meaning behind lyrics, read articles in Spanish and discuss more
-          complex topics with my language partners
-        </li>
-      </ul>
-    </li>
-    <li>
-      In the case of technology you should have at least an initial definition of done, so you know
-      to stay focused and also when to review your plans and adjust your course.
-      <ul>
-        <li>
-          There are a number of reasons why you should want to learn something in technology,
-          whether you already work in tech or not.
-        </li>
-      </ul>
-    </li>
-    <li>
-      A few suggestions are:
-      <ul>
-        <li>Get a better paying job</li>
-        <li>
-          Build an application that will be useful to me or a product that I can sell to others
-        </li>
-        <li>Build a game that from a story that I always wanted to share with others</li>
-        <li>
-          The possibilities are endless, but it's important to have a goal in mind so you can stay
-          focused
-        </li>
-      </ul>
-    </li>
-    <li>So first things first, establish your goals</li>
+    <li>Before you start, you should identify our goals.</li>
+    <li><strong>Read points</strong></li>
+    <li>Learn new language</li>
+    <li>Get into new industry, e.g. cyber security</li>
+    <li>These questions are asked everywhere, but that's because they're important.</li>
   </ul>
 </ContentSlide>
 
@@ -90,7 +58,7 @@
     <li class="fragment">Find your pace, learning shouldn't be overwhelming, nor boring</li>
   </ListWrapper>
 
-  <ul slot="notes ">
+  <ul slot="notes">
     <li>17m00</li>
     <li>Good, you know what the end will look like, now let's go back to the beginning</li>
     <li>Learn some syntax</li>

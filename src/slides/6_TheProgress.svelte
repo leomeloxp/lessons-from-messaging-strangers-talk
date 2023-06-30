@@ -19,24 +19,6 @@
     <li class="fragment">Had to use apps for dictionary and translations all the time</li>
     <li class="fragment">Had an awful accent</li>
   </ListWrapper>
-
-  <ul slot="notes">
-    <li>9m00</li>
-    <li>
-      I already am a native speaker of Brazilian portuguese, that meant I had a B1 level in
-      Portunhol
-    </li>
-    <li>It didn't account for much</li>
-    <li>
-      I'd start with things like
-      <ul>
-        <li>Hola, como estás?</li>
-        <li>Estoy aprendiendo español, puedes ayudarme?</li>
-        <li>Google Translate</li>
-      </ul>
-    </li>
-    <li>I kept going, looking up words, verbs, watching series, etc</li>
-  </ul>
 </ContentSlide>
 
 <style>

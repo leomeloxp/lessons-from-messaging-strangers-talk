@@ -14,15 +14,6 @@
   />
 
   <p class="fragment text-5xl">No, there's actually a story to this.</p>
-
-  <Notes>
-    <p>3m00</p>
-    <ul>
-      <li>They did not like it</li>
-      <li>Thanks for coming to my presentation. Any questions?</li>
-      <li>No no, there's a story, let's go</li>
-    </ul>
-  </Notes>
 </ContentSlide>
 
 <style>

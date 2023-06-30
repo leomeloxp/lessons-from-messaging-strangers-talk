@@ -15,13 +15,6 @@
     <li class="fragment">Verb conjugations became easier</li>
     <li class="fragment">Still have a weird/mixed accent though 😒</li>
   </ListWrapper>
-
-  <ul slot="notes">
-    <li>10m30</li>
-    <li>After enough time I could already join group and solo calls with Spanish speakers</li>
-    <li>Didn't need to look up verb conjugations as often</li>
-    <li>Still had a weird/mixed accent</li>
-  </ul>
 </ContentSlide>
 
 <style>

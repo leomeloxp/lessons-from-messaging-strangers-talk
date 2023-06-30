@@ -11,18 +11,6 @@
 
     <span class="text-4xl">By Leo Melo 🦄 (@leomeloxp)</span>
   </h1>
-
-  <Notes>
-    <p>1m30</p>
-    <ul>
-      <li>Welcome everyone</li>
-      <li>Here to talk about <strong>title</strong></li>
-      <li>Share a bit of this experience</li>
-      <li>Draw a parallel between that and learning new things in technology</li>
-      <li>Let's get started</li>
-      <li>In one sentence, as you might have expected...</li>
-    </ul>
-  </Notes>
 </Slide>
 
 <style>
